@@ -1,4 +1,4 @@
-@-moz-document url-prefix("https://geizhals.at/"), url-prefix("https://geizhals.de/"), url-prefix("http://geizhals.at/"), url-prefix("http://geizhals.de/") {
+@-moz-document regexp('https?://geizhals\\.(at|de|eu)/.*') {
     * {
 
         box-shadow: none !important;
