@@ -305,10 +305,23 @@
         background: #efefef;
         border-color: #efefef !important;
     }
-    input,
-    select {
+    input, select, textarea {
         background: #fff;
         border: 1px solid;
         color: #223;
+    }
+    input[type=submit], button {
+        background: rgb(34, 34, 51);
+        color: #fff;
+        cursor: pointer;
+        padding: 5px 10px;
+    }
+    button {
+        background: rgb(0, 80, 150);
+        border: 1px solid;
+    }
+    .productlist__breadcrumb {
+        background: none;
+        padding-left: 45px;
     }
 }
