@@ -331,5 +331,5 @@ button {
   padding: 0;
 }
 .productlist__product:nth-child(2n), #xf_table.expanded .xf_tr:nth-child(2n+1), .offer:nth-child(2n) {
-  background: #f4f4f4;
+  background: $color-gray-10;
 }
