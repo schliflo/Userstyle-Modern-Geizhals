@@ -213,7 +213,7 @@
     width: 320px;
     transform: translateX(0); }
   div#gh_content_wrapper {
-    padding: 15px 35px 0 200px; }
+    padding: 15px 35px 0 35px; }
   .gh_listtitle {
     background: none;
     font-weight: 700;
@@ -260,4 +260,11 @@
     border: 1px solid; }
   .productlist__breadcrumb {
     background: none;
-    padding-left: 45px; } }
+    padding-left: 45px; }
+  .productlist__name, .gh_gradient0, #gh_proddesc {
+    background: inherit; }
+  #gh_proddesc {
+    border: none;
+    padding: 0; }
+  .productlist__product:nth-child(2n), #xf_table.expanded .xf_tr:nth-child(2n+1), .offer:nth-child(2n) {
+    background: #f4f4f4; } }
