@@ -6,6 +6,9 @@ module.exports = function(grunt) {
     // Project configuration.
     grunt.initConfig({
         sass: {
+            options: {
+                outputStyle: 'expanded'
+            },
             dist: {
                 files: {
                     'dist/userstyle.css': 'src/userstyle.scss'
